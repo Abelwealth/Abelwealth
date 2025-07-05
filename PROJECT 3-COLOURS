@@ -1,0 +1,14 @@
+def display_first_last_colors(color_list):
+    first_color = color_list[0]
+    last_color = color_list[-1]
+    print(f"First color: {first_color}")
+    print(f"Last color: {last_color}")
+
+def main():
+    color_list = ["Red", "Green", "White", "Black"]
+    display_first_last_colors(color_list)
+
+if __name__ == "__main__":
+    main()
+
+
